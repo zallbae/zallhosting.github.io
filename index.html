@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html Zall="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zall Hosting - Jual Kebutuhan HOSTING</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', ZALL HOSTING;
+        }
+        
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            background-image: url('https://files.catbox.moe/jx5jzo.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.85);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-bottom: 2px solid #4a148c;
+        }
+        
+        h1 {
+            color: #bb86fc;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #cfd8dc;
+            font-size: 1.1rem;
+        }
+        
+        .section {
+            background-color: rgba(30, 30, 30, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        h2 {
+            color: #bb86fc;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #4a148c;
+            padding-bottom: 10px;
+        }
+        
+        .price-list {
+            list-style-type: none;
+        }
+        
+        .price-item {
+            padding: 12px 15px;
+            margin-bottom: 8px;
+            background-color: rgba(74, 20, 140, 0.2);
+            border-left: 4px solid #bb86fc;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .price-item:hover {
+            background-color: rgba(74, 20, 140, 0.4);
+        }
+        
+        .bonus-list {
+            list-style-type: none;
+            margin-top: 15px;
+        }
+        
+        .bonus-item {
+            padding: 8px 0;
+            border-bottom: 1px dashed #424242;
+            display: flex;
+            align-items: center;
+        }
+        
+        .bonus-item:before {
+            content: "↠";
+            margin-right: 10px;
+            color: #bb86fc;
+        }
+        
+        .payment-methods {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .payment-method {
+            background-color: rgba(30, 30, 30, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .payment-method img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #4a148c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .contact-btn:hover {
+            background-color: #7b1fa2;
+            transform: translateY(-2px);
+        }
+        
+        .contact-btn i {
+            font-size: 1.2rem;
+        }
+        
+        .testimonial-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #bb86fc;
+            text-decoration: none;
+        }
+        
+        .testimonial-link:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #757575;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .contact-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .payment-methods {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .payment-method {
+                width: 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <header>
+                <h1>ZALL HOSTING</h1>
+                <p class="subtitle">Jual kebutuhan Hosting Dengan Harga Terjangkau Dan Berkualitas</p>
+            </header>
+            
+            <div class="section">
+                <h2>LIST VPS DIGITAL OCEAN</h2>
+                <ul class="price-list">
+                    <li class="price-item">
+                        <span>VPS RAM 32 C8</span>
+                        <span>Rp 60.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>VPS RAM 16 C8</span>
+                        <span>Rp 55.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>VPS RAM 16 C4</span>
+                        <span>Rp 50.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>VPS RAM 8 C4</span>
+                        <span>Rp 45.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>VPS RAM 8 C2</span>
+                        <span>Rp 40.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>VPS RAM 4 C2</span>
+                        <span>Rp 30.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>VPS RAM 2 C2</span>
+                        <span>Rp 25.000</span>
+                    </li>
+                      <li class="price-item">
+                        <span>VPS RAM 2 C1</span>
+                        <span>Rp 20.000</span>
+                     <li class="price-item">
+                        <span>VPS RAM 1 C1</span>
+                        <span>Rp 15.000</span>
+                    </li> 
+                    </li>
+                </ul>
+                
+                <h3 style="color: #bb86fc; margin-top: 20px;">BONUS PEMBELIAN VPS:</h3>
+                <ul class="bonus-list">
+                    <li class="bonus-item">GRATIS INSTALL PANEL PTERODACTYL</li>
+                    <li class="bonus-item">GRATIS REQ WEBSITE NAMAMU</li>
+                    <li class="bonus-item">GRATIS INSTALL PANELDAN NODE</li>
+                    <li class="bonus-item">GRATIS EGG BOT WHATSAPP DAN MINECRAFT</li>
+                    <li class="bonus-item">MASA AKTIF 30 HARI</li>
+                    <li class="bonus-item">GARANSI 30 HARI</li>
+                    <li class="bonus-item">GRATIS SC CPANEL</li>
+                    <li class="bonus-item">BISA AMBIL GARANSI 3 KALI</li>
+                </ul>
+                <p style="margin-top: 15px; font-style: italic;">NOTE : BISA NEGO ASAL MASUK AKAL</p>
+            </div>
+            
+            <div class="section">
+                <h2>JASA DAN PRODUK LAIN NYA</h2>
+                <ul class="price-list">
+                    <li class="price-item">
+                        <span>OWNER PANEL PRIVAT</span>
+                        <span>Rp 20.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>PT PANEL PRIVAT</span>
+                        <span>Rp 15.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>RESELLER PANEL PRIVAT</span>
+                        <span>Rp 10.000</span>
+                    </li>
+                      <li class="price-item">
+                        <span>ADMIN PANEL PRIVAT</span>
+                        <span>Rp 13.000</span>
+                    </li>
+                </ul>
+                
+                <h3 style="color: #bb86fc; margin-top: 20px;">BONUS PEMBELIAN:</h3>
+                <ul class="bonus-list">
+                    <li class="bonus-item">PERMANEN</li>
+                    <li class="bonus-item">ANTI DELAY KARNA SPEK VPS RAM 32 C8</li>
+                    <li class="bonus-item">ANTI PATUNGAN</li>
+                    <li class="bonus-item">ANTI KE COLONG SC</li>
+                  <p style="margin-top: 15px; font-style: italic;">NOTE : SETIAP PEMBELIAN DI ATAS BISA MENDAPATKAN SC</p>
+                </div>
+                
+            <div class="section">
+                <h2>JASA DAN PRODUK LAIN NYA</h2>
+                <ul class="price-list">
+                    <li class="price-item">
+                        <span>OWNER PANEL PUBLIC</span>
+                        <span>Rp 18.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>PT PANEL PUBLIC</span>
+                        <span>Rp 15.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>RESELLER PANEL PUBLIC</span>
+                        <span>Rp 9.000</span>
+                    </li>
+                      <li class="price-item">
+                        <span>ADMIN PANEL PUBLIC</span>
+                        <span>Rp 10.000</span>
+                    </li>
+                </ul>  
+                 <h3 style="color: #bb86fc; margin-top: 20px;">BONUS PEMBELIAN:</h3>
+                <ul class="bonus-list">
+                    <li class="bonus-item">PERMANEN</li>
+                    <li class="bonus-item">ANTI DELAY KARNA SPEK VPS RAM 32 C8</li>
+                    <li class="bonus-item">ANTI PATUNGAN</li>
+                  <p style="margin-top: 15px; font-style: italic;">NOTE : SETIAP PEMBELIAN DI ATAS BISA MENDAPATKAN SC</p>
+                </div>
+                  
+                 <div class="section">
+                  <h2>JASA DAN PRODUK LAIN NYA</h2>
+                <ul class="price-list">
+                    <li class="price-item">
+                        <span>JASA TAMBAH FITUR SCRIPT BOT WhatsApp</span>
+                        <span>Rp 5.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>JASA REANAME SCRIPT</span>
+                        <span>Rp 7.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>JASA INSTALL PANEL PTERODACTYL</span>
+                        <span>Rp 8.000</span>
+                    </li>
+                      <li class="price-item">
+                        <span>JASA PEMBUATAN WEBSITE JUALAM DAN PAYMENT</span>
+                        <span>Rp 13.000</span>
+                     </ui>
+                    </li>
+                   </div>
+                   
+                 <div class="section">
+                <h2>JASA DAN PRODUK LAIN NYA</h2>
+                <ul class="price-list">
+                    <li class="price-item">
+                        <span>OWNER JASHER PUBLIC</span>
+                        <span>Rp 10.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>OWNER JASHER PRIVAT</span>
+                        <span>Rp 15.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>PT JASHER</span>
+                        <span>Rp 18.000</span>
+                  </li>
+                </ul>  
+                 <h3 style="color: #bb86fc; margin-top: 20px;">BONUS PEMBELIAN:</h3>
+                <ul class="bonus-list">
+                    <li class="bonus-item">DI SHARE KE 200 CH</li>
+                    <li class="bonus-item">BOT PRIBADI</li>
+                    <li class="bonus-item">SPEK CH YANG PALING TINGGI 700++</li>
+                    <li class="bonus-item">SPEK CH YANG PALING RENDAH 400++</li>
+                </div>
+                   <div class="section">
+                  <h2>JASA DAN PRODUK LAIN NYA</h2>
+                <ul class="price-list">
+                    <li class="price-item">
+                        <span>MURID BACKDOOR</span>
+                        <span>Rp 10.000</span>
+                    </li>
+                    <li class="price-item">
+                        <span>PT BACKDOOR</span>
+                        <span>Rp 15.000</span>
+                    </li>
+                   </ui>
+                   <h3 style="color: #bb86fc; margin-top: 20px;">BONUS PEMBELIAN:</h3>
+                <ul class="bonus-list">
+                    <li class="bonus-item">BISA BAN NOMER ORANG</li>
+                    <li class="bonus-item">BISA AMBIL GRUP ORANG</li>
+                    <li class="bonus-item">BISA AMBIL CH / SALURAN ORANG</li>
+                    <li class="bonus-item">FULL PENGAJARAN</li>
+                  <p style="margin-top: 15px; font-style: italic;">NOTE : MURID & PT BEDA,KALO PT BACK DOOR ITU BISA OPEM MURID BACKDOOR KEUNTUGAN PT BACKDOOR HAMPIR SAMA KAYA MURID</p>
+                </div>
+            <div class="section">
+                <h2>TESTIMONI PEMBELI</h2>
+                <a href="https://whatsapp.com/channel/0029VayWFSBGehETVLrqRm3u" class="testimonial-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Lihat Testimoni Pembeli di Channel WhatsApp Kami
+                </a>
+            </div>
+            
+            <div class="section">
+                <h2>METODE PEMBAYARAN</h2>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <img src="https://files.catbox.moe/mhlcpd.jpg" alt="QRIS">
+                        <h3>QRIS</h3>
+                        <p>Scan kode QR untuk pembayaran</p>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fas fa-wallet" style="font-size: 2.5rem; color: #4a148c;"></i>
+                        <h3>DANA</h3>
+                        <p>MINTA KE PM</p>
+                    </div>
+                     <div class="payment-method">
+                        <i class="fas fa-money-bill-wave" style="font-size: 2.5rem; color: #4a148c;"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-buttons">
+                <a href="https://wa.me/62815582558345" class="contact-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Beli via WhatsApp
+                </a>
+                <a href="https://t.me/zallhosting" class="contact-btn" target="_blank">
+                    <i class="fab fa-telegram"></i> Chat via Telegram
+                </a>
+            </div>
+            
+            <footer>
+                <p>&copy; 2023 Zall Hosting. All rights reserved.</p>
+                <p style="margin-top: 10px;">Website ini tidak berafiliasi dengan GitHub atau platform lainnya.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
